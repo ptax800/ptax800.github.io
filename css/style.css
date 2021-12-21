@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans.woff2");
+  src: url("../fonts/ptsans.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsansbold.woff2");
+  src: url("../fonts/ptsansbold.woff");
+  font-weight: 700;
+}
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 320px;
+}
+.advantage h2 {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 15px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.advantage h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.advantage p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.advantage-pic {
+  width: 320px;
+  height: 211px;
+  background-color: #81b3d2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.advantage-pic h2 {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.advantage-pic h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.advantage-pic p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.advantage-pic__pictures-container {
+  width: 320px;
+  height: 260px;
+  background-image: url("../img/index/photo-city@1x.jpg");
+  background-position: center;
+}
+.footer p {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.living-advantage {
+  display: flex;
+}
+.living-advantage h2 {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 15px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.living-advantage p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.main__pic {
+  width: 320px;
+  height: 389px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/index/back-desktop.jpg");
+  background-position: center;
+  border: solid 1px #000000;
+}
+.main__welcome h2 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+.main__welcome p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+.main-header__nav {
+  display: flex;
+}
+.main-header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.main-header p {
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.main-header a {
+  text-decoration: none;
+}
+.main-header__menu {
+  display: flex;
+}
+.main-header__about-us {
+  display: flex;
+}
+.social {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.copyright {
+  display: flex;
+}
+.photo-and-video__heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.photo-and-video__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  text-transform: uppercase;
+}
+.photo__heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.photo__author-picture {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+.photo__likes {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.video__heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.video__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
